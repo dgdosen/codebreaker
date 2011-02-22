@@ -42,6 +42,7 @@ gem 'sqlite3'
 	gem 'cucumber'
 	gem 'cucumber-rails'
 	gem 'spork', '~>0.9.0.rc'
+	gem 'dgdosentestgem'
 # end
 
 # group :test do

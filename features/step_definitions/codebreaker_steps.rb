@@ -21,10 +21,6 @@ When /^I start a new game$/ do
   game.start('1234')
 end
 
-Then /^I should see "([^"]*)"$/ do |message|
-  output.messages.should include(message)
-end
-
 When /^I guess "([^"]*)"$/ do |guess|
   @game.guess(guess)
 end
